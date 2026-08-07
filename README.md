@@ -96,26 +96,76 @@ The dashboard includes:
 
 ## Power BI Dashboard
 
-![Customer Shopping Behavior Dashboard](images/dashboard.png)
+<img width="1272" height="645" alt="dashboard" src="https://github.com/user-attachments/assets/ccc354ad-e7b6-46e5-afc1-11c7b8543b50" />
 
-## Project Structure
 
-```text
+## 🚀 How to Run
+
+### Python
+
+Install the required libraries:
+
+```bash
+pip install pandas numpy sqlalchemy pymysql jupyter
+
+Open Jupyter Notebook:
+
+jupyter notebook
+
+Then open and run:
+
+Customer-Shopping-Behavior-Analysis.ipynb
+SQL
+Install MySQL.
+Create the required database.
+Load the cleaned customer data.
+Run the SQL queries from:
+customer_shopping_behavior_analysis.sql
+Power BI
+
+Open:
+
+customer_shopping_behavior_analysis.pbix
+
+and refresh the data source if required.
+
+🔮 Future Scope
+
+Future improvements could include:
+
+RFM Customer Segmentation
+Customer Lifetime Value Analysis
+Churn Prediction
+Purchase Prediction
+Time-Series Analysis after adding transaction dates
+Automated Power BI Refresh
+Advanced Customer Segmentation
+
+📁 Project Structure
 Customer-Shopping-Behavior-Analysis/
 │
 ├── data/
 │   └── customer_shopping_behavior.csv
 │
-├── notebook/
+├── notebooks/
 │   └── Customer-Shopping-Behavior-Analysis.ipynb
 │
 ├── sql/
 │   └── customer_shopping_behavior_analysis.sql
 │
-├── powerbi/
+├── dashboard/
 │   └── customer_shopping_behavior_analysis.pbix
 │
-├── images/
-│   └── dashboard.png
+├─── dashboard.png
+│
+└── project-report.pdf
+│
+├─── presentation
 │
 └── README.md
+
+## 👤 Author
+NAME: NIRAJ KUMAR — LinkedIn: www.linkedin.com/in/niraj649 — Email: niraj.kumar.in07@gmain.com
+
+Data Analytics | Python | SQL | Power BI
+
